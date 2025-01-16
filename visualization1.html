@@ -1,207 +1,389 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Visualization 1</title>
-    <link rel="stylesheet" href="./assets/css/visualization1.css" />
-  </head>
-  <body>
-    <table>
-      <th>title</th>
-      <th>category</th>
-      <th>hex code</th>
-      <tr>
-        <td>Winter storms, freezing</td>
-        <td>winter-storm-freeze</td>
-        <td style="background-color: #ccc">#ccc</td>
-      </tr>
-      <tr>
-        <td>Drought and wildfire</td>
-        <td>drought-wildfire</td>
-        <td style="background-color: #ffffd9">#ffffd9</td>
-      </tr>
-      <tr>
-        <td>Flooding</td>
-        <td>flooding</td>
-        <td style="background-color: #41b6c4">#41b6c4</td>
-      </tr>
-      <tr>
-        <td>Tropical cyclones</td>
-        <td>tropical-cyclone</td>
-        <td style="background-color: #081d58; color: white">#081d58</td>
-      </tr>
-      <tr>
-        <td>Severe storms</td>
-        <td>severe-storm</td>
-        <td style="background-color: #c7e9b4">#c7e9b4</td>
-      </tr>
-    </table>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Visualization 1</title>
+		<link
+			rel="stylesheet"
+			href="./assets/css/visualization1.css"
+		/>
+	</head>
+	<body>
+		<table>
+			<th>title</th>
+			<th>category</th>
+			<th>hex code</th>
+			<tr>
+				<td>Winter storms, freezing</td>
+				<td>winter-storm-freeze</td>
+				<td style="background-color: #ccc">#ccc</td>
+			</tr>
+			<tr>
+				<td>Drought and wildfire</td>
+				<td>drought-wildfire</td>
+				<td style="background-color: #ffffd9">#ffffd9</td>
+			</tr>
+			<tr>
+				<td>Flooding</td>
+				<td>flooding</td>
+				<td style="background-color: #41b6c4">#41b6c4</td>
+			</tr>
+			<tr>
+				<td>Tropical cyclones</td>
+				<td>tropical-cyclone</td>
+				<td style="background-color: #081d58; color: white">#081d58</td>
+			</tr>
+			<tr>
+				<td>Severe storms</td>
+				<td>severe-storm</td>
+				<td style="background-color: #c7e9b4">#c7e9b4</td>
+			</tr>
+		</table>
 
-    <div class="svg-container">
-      <svg class="svg-content" width="1000" height="600">
-        <!-- Months (every 80)-->
-        <line
-          x1="50"
-          y1="20"
-          x2="50"
-          y2="40"
-          style="stroke: black; stroke-width: 2"
-        />
-        <text x="40" y="15" fill="black">Jan</text>
-        <line
-          x1="130"
-          y1="20"
-          x2="130"
-          y2="40"
-          style="stroke: black; stroke-width: 2"
-        />
-        <text x="120" y="15" fill="black">Feb</text>
-        <line
-          x1="210"
-          y1="20"
-          x2="210"
-          y2="40"
-          style="stroke: black; stroke-width: 2"
-        />
-        <text x="200" y="15" fill="black">Mar</text>
+		<div class="svg-container">
+			<svg
+				class="svg-content"
+				width="1000"
+				height="600"
+			>
+				<!-- Months (every 80)-->
+				<line
+					x1="50"
+					y1="20"
+					x2="50"
+					y2="40"
+					style="stroke: black; stroke-width: 2"
+				/>
+				<text
+					x="40"
+					y="15"
+					fill="black"
+				>
+					Jan
+				</text>
+				<line
+					x1="130"
+					y1="20"
+					x2="130"
+					y2="40"
+					style="stroke: black; stroke-width: 2"
+				/>
+				<text
+					x="120"
+					y="15"
+					fill="black"
+				>
+					Feb
+				</text>
+				<line
+					x1="210"
+					y1="20"
+					x2="210"
+					y2="40"
+					style="stroke: black; stroke-width: 2"
+				/>
+				<text
+					x="200"
+					y="15"
+					fill="black"
+				>
+					Mar
+				</text>
 
-        <line
-          x1="290"
-          y1="20"
-          x2="290"
-          y2="40"
-          style="stroke: black; stroke-width: 2"
-        />
-        <text x="280" y="15" fill="black">Apr</text>
+				<line
+					x1="290"
+					y1="20"
+					x2="290"
+					y2="40"
+					style="stroke: black; stroke-width: 2"
+				/>
+				<text
+					x="280"
+					y="15"
+					fill="black"
+				>
+					Apr
+				</text>
 
-        <line
-          x1="370"
-          y1="20"
-          x2="370"
-          y2="40"
-          style="stroke: black; stroke-width: 2"
-        />
-        <text x="360" y="15" fill="black">May</text>
+				<line
+					x1="370"
+					y1="20"
+					x2="370"
+					y2="40"
+					style="stroke: black; stroke-width: 2"
+				/>
+				<text
+					x="360"
+					y="15"
+					fill="black"
+				>
+					May
+				</text>
 
-        <line
-          x1="450"
-          y1="20"
-          x2="450"
-          y2="40"
-          style="stroke: black; stroke-width: 2"
-        />
-        <text x="440" y="15" fill="black">Jun</text>
+				<line
+					x1="450"
+					y1="20"
+					x2="450"
+					y2="40"
+					style="stroke: black; stroke-width: 2"
+				/>
+				<text
+					x="440"
+					y="15"
+					fill="black"
+				>
+					Jun
+				</text>
 
-        <line
-          x1="530"
-          y1="20"
-          x2="530"
-          y2="40"
-          style="stroke: black; stroke-width: 2"
-        />
-        <text x="520" y="15" fill="black">Jul</text>
+				<line
+					x1="530"
+					y1="20"
+					x2="530"
+					y2="40"
+					style="stroke: black; stroke-width: 2"
+				/>
+				<text
+					x="520"
+					y="15"
+					fill="black"
+				>
+					Jul
+				</text>
 
-        <line
-          x1="610"
-          y1="20"
-          x2="610"
-          y2="40"
-          style="stroke: black; stroke-width: 2"
-        />
-        <text x="600" y="15" fill="black">Aug</text>
+				<line
+					x1="610"
+					y1="20"
+					x2="610"
+					y2="40"
+					style="stroke: black; stroke-width: 2"
+				/>
+				<text
+					x="600"
+					y="15"
+					fill="black"
+				>
+					Aug
+				</text>
 
-        <line
-          x1="690"
-          y1="20"
-          x2="690"
-          y2="40"
-          style="stroke: black; stroke-width: 2"
-        />
-        <text x="680" y="15" fill="black">Sep</text>
-        <line
-          x1="770"
-          y1="20"
-          x2="770"
-          y2="40"
-          style="stroke: black; stroke-width: 2"
-        />
-        <text x="760" y="15" fill="black">Oct</text>
+				<line
+					x1="690"
+					y1="20"
+					x2="690"
+					y2="40"
+					style="stroke: black; stroke-width: 2"
+				/>
+				<text
+					x="680"
+					y="15"
+					fill="black"
+				>
+					Sep
+				</text>
+				<line
+					x1="770"
+					y1="20"
+					x2="770"
+					y2="40"
+					style="stroke: black; stroke-width: 2"
+				/>
+				<text
+					x="760"
+					y="15"
+					fill="black"
+				>
+					Oct
+				</text>
 
-        <line
-          x1="850"
-          y1="20"
-          x2="850"
-          y2="40"
-          style="stroke: black; stroke-width: 2"
-        />
-        <text x="840" y="15" fill="black">Nov</text>
+				<line
+					x1="850"
+					y1="20"
+					x2="850"
+					y2="40"
+					style="stroke: black; stroke-width: 2"
+				/>
+				<text
+					x="840"
+					y="15"
+					fill="black"
+				>
+					Nov
+				</text>
 
-        <line
-          x1="930"
-          y1="20"
-          x2="930"
-          y2="40"
-          style="stroke: black; stroke-width: 2"
-        />
-        <text x="920" y="15" fill="black">Dec</text>
+				<line
+					x1="930"
+					y1="20"
+					x2="930"
+					y2="40"
+					style="stroke: black; stroke-width: 2"
+				/>
+				<text
+					x="920"
+					y="15"
+					fill="black"
+				>
+					Dec
+				</text>
 
-        <!-- 2017 -->
-        <line
-          x1="50"
-          y1="100"
-          x2="930"
-          y2="100"
-          style="stroke: black; stroke-width: 2"
-        />
-        <!-- 365 days, 930 units, each day is ~2.55 units-->
-        <text x="0" y="100" fill="black">2017</text>
-        <!-- tropical-cyclone 2017-08-27 125 Hurricane Harvey -->
-        <circle r="125" cx="659.45" cy="100" fill="#081d58" />
-        <text x="659.45" y="100" fill="black">Hurricane Harvey</text>
-        <!-- severe-storm 2017-03-26 2.1 South/Southeast Severe Weather -->
-        <circle r="2.1" cx="266.75" cy="100" fill="#c7e9b4" />
-        <text x="266.75" y="100" fill="black">
-          South/Southeast Severe Weather
-        </text>
-        <!-- flooding 2017-04-25 1.7 Missouri and Arkansas Flooding and Central Severe -->
-        <circle r="1.7" cx="343.25" cy="100" fill="#41b6c4" />
-        <text x="343.25" y="100" fill="black">
-          Missouri and Arkansas Flooding and Central Severe
-        </text>
-        <!-- severe-storm 2017-01-20 1.1 Southern Tornado Outbreak and Western Storms -->
-        <circle r="1.1" cx="101" cy="100" fill="#c7e9b4" />
-        <text x="101" y="100" fill="black">
-          Southern Tornado Outbreak and Western Storms
-        </text>
+				<!-- 2017 -->
+				<line
+					x1="50"
+					y1="100"
+					x2="930"
+					y2="100"
+					style="stroke: black; stroke-width: 2"
+				/>
+				<!-- 365 days, 880 units, each day is ~2.55 units-->
+				<text
+					x="0"
+					y="100"
+					fill="black"
+				>
+					2017
+				</text>
+				<!-- tropical-cyclone 2017-08-27 125 Hurricane Harvey -->
+				<circle
+					r="125"
+					cx="659.45"
+					cy="100"
+					fill="#081d58"
+				/>
+				<text
+					x="659.45"
+					y="65"
+					fill="black"
+				>
+					Hurricane Harvey
+				</text>
+				<!-- severe-storm 2017-03-26 2.1 South/Southeast Severe Weather -->
+				<circle
+					r="2.1"
+					cx="266.75"
+					cy="100"
+					fill="#c7e9b4"
+				/>
+				<text
+					x="266.75"
+					y="85"
+					fill="black"
+				>
+					South/Southeast Severe Weather
+				</text>
+				<!-- flooding 2017-04-25 1.7 Missouri and Arkansas Flooding and Central Severe -->
+				<circle
+					r="1.7"
+					cx="343.25"
+					cy="100"
+					fill="#41b6c4"
+				/>
+				<text
+					x="343.25"
+					y="75"
+					fill="black"
+				>
+					Missouri and Arkansas Flooding and Central Severe
+				</text>
+				<!-- severe-storm 2017-01-20 1.1 Southern Tornado Outbreak and Western Storms -->
+				<circle
+					r="1.1"
+					cx="101"
+					cy="100"
+					fill="#c7e9b4"
+				/>
+				<text
+					x="101"
+					y="95"
+					fill="black"
+				>
+					Southern Tornado Outbreak and Western Storms
+				</text>
 
-        <!-- 2016 -->
-        <line
-          x1="50"
-          y1="200"
-          x2="930"
-          y2="200"
-          style="stroke: black; stroke-width: 2"
-        />
-        <text x="0" y="200" fill="black">2016</text>
-        <!-- 366 days, 930 units, each day is ~2.54 units-->
-        <!-- flooding 2016-08-12 (225) 10.3 Louisiana Flooding -->
-        <circle r="10.3" cx="50" cy="200" fill="#41b6c4" />
-        <text x="0" y="200" fill="black">Louisiana Flooding</text>
-        <!-- tropical-cyclone 2016-10-08 (282) 10.3 Hurricane Matthew -->
-        <circle r="10.3" cx="50" cy="200" fill="#081d58" />
-        <text x="0" y="200" fill="black">Hurricane Matthew</text>
-        <!-- drought-wildfire 2016-06-01 (153) 2.5 Western/Southeast Wildfires -->
-        <circle r="2.5" cx="50" cy="200" fill="#ffffd9" />
-        <text x="0" y="200" fill="black">Western/Southeast Wildfires</text>
-        <!-- severe-storm 2016-03-23 (83) 2.1 North Texas Hail Storm -->
-        <circle r="2.1" cx="50" cy="200" fill="#c7e9b4" />
-        <text x="0" y="200" fill="black">North Texas Hail Storm</text>
-        <!-- severe-storm 2016-05-21 1.2 Rockies/Central Tornadoes and Severe Weather -->
-        <circle r="1.2" cx="50" cy="200" fill="#c7e9b4" />
-        <text x="0" y="200" fill="black">
-          Rockies/Central Tornadoes and Severe Weather
-        </text>
-      </svg>
-    </div>
-  </body>
+				<!-- 2016 -->
+				<line
+					x1="50"
+					y1="200"
+					x2="930"
+					y2="200"
+					style="stroke: black; stroke-width: 2"
+				/>
+				<text
+					x="0"
+					y="200"
+					fill="black"
+				>
+					2016
+				</text>
+				<!-- 366 days, 880 units, each day is ~2.4 units-->
+				<!-- flooding 2016-08-12 (225) 10.3 Louisiana Flooding -->
+				<circle
+					r="10.3"
+					cx="540"
+					cy="200"
+					fill="#41b6c4"
+				/>
+				<text
+					x="540"
+					y="165"
+					fill="black"
+				>
+					Louisiana Flooding
+				</text>
+				<!-- tropical-cyclone 2016-10-08 (282) 10.3 Hurricane Matthew -->
+				<circle
+					r="10.3"
+					cx="676.8"
+					cy="200"
+					fill="#081d58"
+				/>
+				<text
+					x="676.8"
+					y="155"
+					fill="black"
+				>
+					Hurricane Matthew
+				</text>
+				<!-- drought-wildfire 2016-06-01 (153) 2.5 Western/Southeast Wildfires -->
+				<circle
+					r="2.5"
+					cx="367.2"
+					cy="200"
+					fill="#ffffd9"
+				/>
+				<text
+					x="367.2"
+					y="175"
+					fill="black"
+				>
+					Western/Southeast Wildfires
+				</text>
+				<!-- severe-storm 2016-03-23 (83) 2.1 North Texas Hail Storm -->
+				<circle
+					r="2.1"
+					cx="199.2"
+					cy="200"
+					fill="#c7e9b4"
+				/>
+				<text
+					x="199.2"
+					y="195"
+					fill="black"
+				>
+					North Texas Hail Storm
+				</text>
+				<!-- severe-storm 2016-05-21 (142) 1.2 Rockies/Central Tornadoes and Severe Weather -->
+				<circle
+					r="1.2"
+					cx="340.8"
+					cy="200"
+					fill="#c7e9b4"
+				/>
+				<text
+					x="340.8"
+					y="185"
+					fill="black"
+				>
+					Rockies/Central Tornadoes and Severe Weather
+				</text>
+			</svg>
+		</div>
+	</body>
 </html>
